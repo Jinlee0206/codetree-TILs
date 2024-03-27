@@ -12,7 +12,7 @@ void conv(string n, int m)
         {
             res += (int)(n[i] - '0') * pow(m, n.size() - i - 1);    
         }
-        else res += (int)(n[i] - 'A') * pow(m, n.size() - i - 1);
+        else res += (int)(n[i] - 55) * pow(m, n.size() - i - 1);
     }
 }
 
